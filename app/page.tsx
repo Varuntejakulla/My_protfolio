@@ -6,7 +6,7 @@ import Header from "@/app/components/Header";
 import Hero from "@/app/components/Hero";
 import About from "@/app/components/About";
 import Projects from "@/app/components/Projects";
-import Testimonials from "@/app/components/Testimonials";
+// import Testimonials from "@/app/components/Testimonials";
 import Services from "@/app/components/Services";
 import CTA from "@/app/components/CTA";
 import Footer from "@/app/components/Footer";
