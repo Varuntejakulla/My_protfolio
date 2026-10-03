@@ -1,4 +1,29 @@
 import {
+    FaAws,
+    FaMicrosoft,
+    FaDocker,
+    FaLinux,
+    FaGithub,
+    FaCloud,
+    FaMicrochip,
+    FaComments,
+    FaCodeBranch,
+} from 'react-icons/fa';
+
+import {
+    SiPytorch,
+    SiTensorflow,
+    SiPostgresql,
+    SiRedis,
+    SiMongodb,
+    SiKubernetes,
+    SiTerraform,
+    SiPrometheus,
+    SiGrafana,
+
+} from 'react-icons/si';
+
+import {
     FiGithub,
     FiTwitter,
     FiLinkedin,
@@ -9,7 +34,14 @@ import {
     FiDatabase,
     FiCpu
 } from 'react-icons/fi'
-import { FaReact, FaNodeJs } from 'react-icons/fa'
+
+import { FaReact, FaNodeJs ,FaPython, 
+    FaServer ,
+    FaRobot,
+  FaLink,
+  FaProjectDiagram,
+  FaDatabase,
+} from 'react-icons/fa'
 import { SiNextdotjs, SiTypescript, SiTailwindcss, SiGraphql } from 'react-icons/si'
 
 export const navLinks = [
@@ -21,18 +53,42 @@ export const navLinks = [
 ];
 
 export const socialLinks = [
-    { name: 'GitHub', url: 'https://github.com/alirazahaider', icon: FiGithub },
-    { name: 'LinkedIn', url: 'https://www.linkedin.com/in/alirazaweb/', icon: FiLinkedin },
-    { name: 'Email', url: 'mailto:alicodespace@gmail.com', icon: FiMail },
+    { name: 'GitHub', url: 'https://github.com/Varuntejakulla', icon: FiGithub },
+    { name: 'LinkedIn', url: 'https://www.linkedin.com/in/varun-kulla-22549022a/', icon: FiLinkedin },
+    { name: 'Email', url: 'mailto:varuneeeaims@gmail.com', icon: FiMail },
 ]
 
 export const skills = [
-    { name: 'React', icon: FaReact },
-    { name: 'Next.js', icon: SiNextdotjs },
-    { name: 'TypeScript', icon: SiTypescript },
-    { name: 'Node.js', icon: FaNodeJs },
-    { name: 'Tailwind CSS', icon: SiTailwindcss },
-    { name: 'GraphQL', icon: SiGraphql },
+    // Programming & Backend
+  { name: 'Python', icon: FaPython },
+  { name: 'PyTorch', icon: SiPytorch },
+  { name: 'TensorFlow', icon: SiTensorflow },
+
+  { name: 'OpenAI', icon: FaRobot },
+  { name: 'LangChain', icon: FaRobot },
+  { name: 'LangGraph', icon: FaRobot },
+  { name: 'LlamaIndex', icon: FaDatabase },
+  { name: 'RAG', icon: FaDatabase },
+  { name: 'Agentic AI', icon: FaRobot },
+
+  { name: 'FastAPI', icon: FaServer },
+  { name: 'vLLM', icon: FaServer },
+  { name: 'Ollama', icon: FaServer },
+
+  { name: 'PostgreSQL', icon: SiPostgresql },
+  { name: 'Redis', icon: SiRedis },
+  { name: 'MongoDB', icon: SiMongodb },
+
+  { name: 'AWS', icon: FaCloud },
+  { name: 'Azure', icon: FaCloud },
+
+  { name: 'Docker', icon: FaDocker },
+  { name: 'Kubernetes', icon: SiKubernetes },
+  { name: 'Terraform', icon: SiTerraform },
+  { name: 'Prometheus', icon: SiPrometheus },
+  { name: 'Grafana', icon: SiGrafana },
+  { name: 'Linux', icon: FaLinux },
+  { name: 'GitHub', icon: FaGithub },
 ]
 
 export const projects = [
@@ -62,23 +118,23 @@ export const projects = [
     }
 ]
 
-export const testimonials = [
-    {
-        name: 'Jane Smith',
-        role: 'CEO at TechCorp',
-        quote: 'Ali delivered our project ahead of schedule with exceptional quality. Highly recommended!'
-    },
-    {
-        name: 'Mike Johnson',
-        role: 'Product Manager',
-        quote: 'Working with Ali was a pleasure. His attention to detail and problem-solving skills are top-notch.'
-    },
-    {
-        name: 'Sarah Williams',
-        role: 'Marketing Director',
-        quote: 'Our website performance improved dramatically after Ali optimized it. Great work!'
-    }
-]
+// export const testimonials = [
+//     {
+//         name: 'Jane Smith',
+//         role: 'CEO at TechCorp',
+//         quote: 'Ali delivered our project ahead of schedule with exceptional quality. Highly recommended!'
+//     },
+//     {
+//         name: 'Mike Johnson',
+//         role: 'Product Manager',
+//         quote: 'Working with Ali was a pleasure. His attention to detail and problem-solving skills are top-notch.'
+//     },
+//     {
+//         name: 'Sarah Williams',
+//         role: 'Marketing Director',
+//         quote: 'Our website performance improved dramatically after Ali optimized it. Great work!'
+//     }
+// ]
 
 export const services = [
     {
